@@ -1,9 +1,9 @@
  <?php
  //require_once("functions.php")
- define("DB_SERVER", "layout.com");
- define("DB_USER", "root");
- define("DB_PASS", "0m@r@li$$");
- define("DB_NAME", "cms");
+ define("DB_SERVER", "");
+ define("DB_USER", "");
+ define("DB_PASS", "");
+ define("DB_NAME", "");
 
    //1. create a database connection
   $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
